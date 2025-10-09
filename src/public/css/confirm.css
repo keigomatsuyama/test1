@@ -1,0 +1,73 @@
+  body {
+      font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #5c4d41;
+    }
+
+    .form-container {
+      width: 70%;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th {
+      width: 25%;
+      background: #c6b6a6;
+      color: white;
+      text-align: left;
+      padding: 12px;
+      font-weight: normal;
+    }
+
+    td {
+      background: #fdfdfd;
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-submit {
+      background: #a28d78;
+      color: white;
+    }
+
+    .btn-edit {
+      background: #f4f4f4;
+      color: #333;
+      border: 1px solid #ccc;
+      margin-top:47px;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+    .btn btn-edit {
+      margin-left: 20px;
+    }

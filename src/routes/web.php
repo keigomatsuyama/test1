@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\IndexController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/contact', [CategoryController::class, 'index']);
+Route::post('/confirm', [CategoryController::class, 'confirm']);
+Route::get('/register', [IndexController::class, 'index']);
+Route::post('/register', [IndexController::class, 'store']);
+Route::get('/login', [IndexController::class, 'submit']);
+Route::post('/login', [IndexController::class, 'submit1']);
+Route::post('/admin',[IndexController::class, 'admin']);
+Route::post('/thanks', [IndexController::class, 'thanks']);

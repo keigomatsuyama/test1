@@ -1,0 +1,137 @@
+.subtitle {
+    font-size: 35px;
+    margin: 20px 0 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #8b7969;
+}
+form {
+    text-align: left;
+    justify-content: space-between;
+    color: #8b7969;
+    font-size: 20px;
+    max-width: 1000px;
+}
+
+input[name="name"] {
+    width: 50%;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 135px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: #efefef;
+}
+input[name="name1"] {
+    width: 50%;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 97px;
+    display: inline-block;
+    background-color: #efefef;
+}
+
+
+input[type="radio"] {
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+input[type="email"] {
+    width: 73%;
+    max-width: 545px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #efefef;
+}
+input[name="phone"] {
+    max-width: 193px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 110px;
+    text-align: center;
+    background-color: #efefef;
+}
+a {
+    font-size: 20px;
+    color: #8b7969;
+    position: relative;
+    left: 35px;
+    font-size: 20px;
+}
+input[name="address"] {
+    max-width: 545px;
+    width: 100%;
+    margin-left: 150px;
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #efefef;
+}
+input[name="building"] {
+    max-width: 545px;
+    width: 100%;
+    margin-left: 130px;
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #efefef;
+}
+
+select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: #efefef;
+    margin-left: 10px;
+}
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: #efefef;
+    display: inline-block;
+    margin-left: 220px;
+}
+.required {
+    color: #d46b6b;
+}
+.submit {
+    text-align: center;
+}
+button {
+    margin-top: 50px;
+    background: #5a4632;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.required {
+    color: #d46b6b;
+     font-size: 20px;
+}
